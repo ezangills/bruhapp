@@ -1,3 +1,10 @@
+# Contracts:
+
+1. contracts/SoulboundToken.sol - token to add skill points to users
+2. contracts/SkillVerifier.sol - ZK-proof verifier of the skill
+ 
+ 
+ npx hardhat compile
  npx hardhat node
 
 
@@ -7,7 +14,8 @@
 
 
 
- npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploySoulboundToken.js --network localhost
+npx hardhat run scripts/deploySkillVerifier.js --network localhost
 
 
 

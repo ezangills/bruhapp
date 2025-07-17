@@ -1,5 +1,5 @@
-1,1,70,main.skillSecret
-2,2,70,main.skillHash
+1,1,70,main.skillHash
+2,2,70,main.skillSecret
 3,-1,69,main.hasher.out
 4,-1,69,main.hasher.inputs[0]
 5,-1,68,main.hasher.pEx.out[0]
