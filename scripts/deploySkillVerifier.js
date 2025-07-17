@@ -1,3 +1,5 @@
+// this script is just for testing purposes
+
 const { ethers } = require("hardhat");
 
 async function main() {
